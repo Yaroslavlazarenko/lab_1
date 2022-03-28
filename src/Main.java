@@ -54,7 +54,7 @@ public class Main {
     private static void task3() {
         int sum = 0;
         for (int number = 0; number <= 9; number++)
-            sum +=(int)(Math.random()*200-100);
+            sum +=(int)(Math.random()*(200+1)-100);
         System.out.println("Sum = " + sum);
     }
 
